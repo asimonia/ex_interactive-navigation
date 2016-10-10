@@ -1,0 +1,34 @@
+nav ul {
+	/* remove the bullets from the list */
+	list-style-type: none;
+	/* remove the browser defaults */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+	/* move all elements to the left to create a nav bar */
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to on hover */
+nav li a:hover {
+	color: blue;
+    background-color: red;
+}
+
+nav li a:active {
+	display: block;
+	padding-right: 21px;
+	padding-left: 21px;
+}
